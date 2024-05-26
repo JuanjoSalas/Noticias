@@ -17,7 +17,7 @@ const News = () => {
       <div key={notice.id} className="basic-card basic-card-dark">
       <div className="card-content">
           <span className="card-title">{notice.title}</span>
-          <p className="card-text">{notice.abstract}</p>
+          <p className="card-text">{notice.description}</p>
       </div>
       </div>
     )
