@@ -1,5 +1,6 @@
 import React, { useContext, useEffect } from "react";
 import { GlobalContext } from "../../context/GlobalState";
+import "./ListNews.scss";
 
 const News = () => {
   const { news, getNews } = useContext(GlobalContext);

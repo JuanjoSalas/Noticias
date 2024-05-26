@@ -5,7 +5,6 @@ const Footer = () => {
   return (
     <div>
             <span>Juanjo Salas 2024</span>
-            <span>juanjo.salas.dev@gmail.com</span>
     </div>
   )
 }
