@@ -5,6 +5,7 @@ import Home from "./components/Home/Home.jsx";
 import Form from "./components/Form/Form.jsx";
 import ListNews from "./components/ListNews/ListNews.jsx";
 import Footer from "./components/Footer/Footer.jsx";
+import { GlobalProvider } from './context/GlobalState.jsx';
 
 
  
@@ -12,6 +13,7 @@ function App() {
 
   return (
     <BrowserRouter>
+    <GlobalProvider>
     <Header/>
     <Routes>
     <Route path="/" element={<Home/>}/>
@@ -19,6 +21,7 @@ function App() {
       <Route path="/list" element={<ListNews/>}/>
     </Routes>
     <Footer/>
+    </GlobalProvider>
     </BrowserRouter>
   )
 }

@@ -50,7 +50,7 @@ export const Form = () => {
     localStorage.setItem('Form', JSON.stringify(data))
     console.log(data);
     setData(initialValue);
-    navigate("/");
+    navigate("/list");
   };
 
   return (
