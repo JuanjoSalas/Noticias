@@ -54,7 +54,7 @@ export const Form = () => {
   };
 
   return (
-    <form onSubmit={handleOnSubmit}>
+    <form className="form" onSubmit={handleOnSubmit}>
       <input
         type="date"
         name="date"
@@ -71,8 +71,7 @@ export const Form = () => {
         onChange={handleInputChange}
         value={data.title}
       />
-      <input
-        type="text"
+      <textarea
         name="body"
         id="body"
         placeholder="News"

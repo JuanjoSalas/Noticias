@@ -1,5 +1,10 @@
-div{
+$secondary-color:#006060;
+$detail-color:#EFB810;
+
+.footer{
+    background-color: $secondary-color;
+    width: 100vw;
     span{
-        margin: 0 25px;
+        color: $detail-color;   
     }
 }

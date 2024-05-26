@@ -1,8 +1,12 @@
-import React from 'react'
+import React from 'react';
+import book from "../../assets/img/book.png";
+import "./Home.scss";
 
 export const Home = () => {
   return (
-    <div>Home</div>
+    <div className='home'>
+    <img className="book" src={book}/>
+    </div>
   )
 }
 

@@ -15,10 +15,10 @@ const News = () => {
 
   return <div>{news.map(notice=>{
     return (
-      <div key={notice.id} className="basic-card basic-card-dark">
-      <div className="card-content">
-          <span className="card-title">{notice.title}</span>
-          <p className="card-text">{notice.description}</p>
+      <div key={notice.id} className="card">
+      <div className="news">
+          <span>{notice.title}</span>
+          <p>{notice.description}</p>
       </div>
       </div>
     )

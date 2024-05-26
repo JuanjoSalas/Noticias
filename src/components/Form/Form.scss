@@ -1,0 +1,21 @@
+$secondary-color:#006060;
+$detail-color:#EFB810;
+
+.form{
+    margin-top: 17vh;
+    margin-bottom: 17vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    input{
+    margin: 10px;
+    }
+    textarea{
+        margin: 10px;
+        min-height: 20vh;
+    }
+    .button{
+        background-color: $secondary-color;
+        color: $detail-color;
+    }
+}

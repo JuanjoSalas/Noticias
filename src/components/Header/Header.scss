@@ -1,7 +1,19 @@
-div{
+$secondary-color:#006060;
+$detail-color:#EFB810;
+
+.Header{
+    background-color: $secondary-color;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    img{
+        max-width: 5%;
+        margin: 0 2.5vw;
+    }
     nav{
+        margin-top: 15px;
         span{
-            margin: 0 25px;
+            margin: 2.5vw;
         }
     }
 }

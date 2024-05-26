@@ -1,0 +1,18 @@
+$secondary-color:#006060;
+$detail-color:#EFB810;
+
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    .news{
+    background-color: $secondary-color;
+    color: white;
+    width: 25vw;
+    height: 40vh;
+    padding: 25px;
+    }
+    span{
+        color: $detail-color;
+    }
+}
