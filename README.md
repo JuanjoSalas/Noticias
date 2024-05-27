@@ -1,8 +1,43 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Página de noticias de libros
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+Este proyecto utiliza React, React Router y Context API para gestionar un sitio web de noticias. El proyecto incluye un formulario para enviar noticias, una lista de noticias y una página de inicio.
+
+## Tecnologías utilizadas
+
+- JavaScript
+- React
+- axios
+- SASS
+- Context
+
+
+
+## Instalación
+
+```bash
+  npm create vite@latest
+  npm install
+  npm i axios
+  npm run dev
+```
+
+## API
+
+https://developer.nytimes.com/apis
+
+
+
+
+
+
+
+
+
+
+## Autores
+
+
+- [GitHub Juanjo](https://www.github.com/JuanjoSalas) || [LinkedIn Juanjo](https://www.linkedin.com/in/juanjo-salas-jiménez)
